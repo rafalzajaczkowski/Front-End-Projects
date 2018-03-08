@@ -1,50 +1,112 @@
 body {
     background-color: lightblue;
+    margin-left:auto; 
+    margin-right:auto;
 }
 
 h1 {
     color: white;
     text-align: center;
+    margin-left:auto; 
+    margin-right:auto;
 }
 
 p {
     font-family: verdana;
     font-size: 20px;
+    margin-left:auto; 
+    margin-right:auto;
 }
 
 main{
     background-color: grey;
     padding: 10px;
+    margin-left:auto; 
+    margin-right:auto;
     
 }
 header{
     padding: 5px;
+    margin-left:auto; 
+    margin-right:auto;
 }
 footer{
     padding: 10px;
+    margin-left:auto; 
+    margin-right:auto;
 }
 
 header nav a {
     color: black;
     background-color: coral;
     padding: 5px;
+    margin-left:auto; 
+    margin-right:auto;
 }
+
+header nav a:hover{
+background-color: greenyellow;
+}
+
+main a:hover{
+    font-weight: bold
+}
+
 h2{
-    color: orangered
+    color: rgba(255, 255, 255, 0.925);
+    margin-left:auto; 
+    margin-right:auto;
 }
 tr{
     margin: 10px;
+    margin-left:auto; 
+    margin-right:auto;
 }
 main td{
-    margin: 10px
+    margin: 10px;
+    margin-left:auto; 
+    margin-right:auto;
 }
-main iframe{
-    padding: 0px;
-    max-resolution: 
-    left 100px;;
+div{
+    background-color: blueviolet;
+    overflow: hidden;
+    padding: 20px;
+    margin-left:auto; 
+    margin-right:auto;
 }
-main table td tr img{
-    float: 0px;
 
+
+div img{
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin-left: 100px;
+    padding: 10px;
+    margin-left:auto; 
+    margin-right:auto;
+}
+head title{
+    margin-left:auto; 
+    margin-right:auto;
 }
 
+.red-section{
+    background-color: brown;
+}
+.yellow-section{
+    background-color: yellow;
+}
+.blue-section{
+    background-color: blue;
+}
+.green-section{
+    background-color: green;
+}
+
+.font-solution{
+    font-size: 20px;
+}
+
+#home-page{
+    color: white;
+}
