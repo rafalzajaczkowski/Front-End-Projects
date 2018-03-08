@@ -15,7 +15,36 @@ p {
 main{
     background-color: grey;
     padding: 10px;
+    
+}
+header{
+    padding: 5px;
 }
 footer{
     padding: 10px;
 }
+
+header nav a {
+    color: black;
+    background-color: coral;
+    padding: 5px;
+}
+h2{
+    color: orangered
+}
+tr{
+    margin: 10px;
+}
+main td{
+    margin: 10px
+}
+main iframe{
+    padding: 0px;
+    max-resolution: 
+    left 100px;;
+}
+main table td tr img{
+    float: 0px;
+
+}
+
